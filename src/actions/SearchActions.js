@@ -6,7 +6,7 @@ function searchWithPhotoAPI(keyword, page, dispatch) {
     dispatch({
       type: types.SEARCH_PENDING_FOR_NEXT,
     });
-  }else {
+  } else {
     dispatch({
       type: types.SEARCH_PENDING,
     });
