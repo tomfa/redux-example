@@ -9,6 +9,7 @@ import { Router, Route, Link, browserHistory } from 'react-router'
 render((
   <Router history={browserHistory}>
     <Route path="/" component={App} />
+    <Route path="/index.html" component={App} />
     <Route path="test" component={Test}/>
   	<Route path="*" component={NoMatch}/>
   </Router>
